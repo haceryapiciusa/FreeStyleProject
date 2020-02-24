@@ -7,13 +7,13 @@ public class SimpleTest {
         System.out.println("This test will always pass!");
     }
 
-//    @Test
-//    public void secondTest(){
-//        System.out.println("never fail test!");
-//    }
+    @Test
+    public void secondTest(){
+        System.out.println("never fail test!");
+    }
 
-//    @Test
-//    public void failingTest(){
-//        Assert.fail();
-//    }
+    @Test
+    public void failingTest(){
+        Assert.fail();
+    }
 }
